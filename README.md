@@ -30,15 +30,18 @@ source venv/bin/activate
 ```
 ### 2. Instalar dependencias
 Instala las librerías listadas en requirements.txt:
+```bash
     pip install -r requirements.txt
-
+```
 ### 3. Configurar API Key
 1) Crea un archivo llamado .env en la raíz del proyecto.
 2) Agrega tu clave de OpenAI en el archivo con el siguiente formato:
+```bash
     OPENAI_API_KEY=sk-tu-clave-secreta-aqui
-
+```
 ### 4. Ejecutar el Asistente
 Inicia la aplicación con el siguiente comando:
+```bash
     python main.py
-
+```
 ### 5. LISTO!!!
