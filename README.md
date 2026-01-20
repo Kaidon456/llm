@@ -27,7 +27,7 @@ python -m venv venv
 # En Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### 2. Instalar dependencias
 Instala las librerías listadas en requirements.txt:
     pip install -r requirements.txt
